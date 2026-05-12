@@ -1,0 +1,60 @@
+*, *::after, *::before{
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-style:normal;
+}
+ul {
+    text-align: center;
+    display: flex;
+    gap: 120px;
+}
+p {
+    font-size: 21px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    width: 68%;
+    margin: auto;
+}
+li {
+    text-align: left;
+    width: 100px;
+    font-size: 21px;
+}
+li{
+    text-align: center;
+    font-style: oblique;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+}
+
+.imagens > div {
+    max-width: 30%;
+}
+
+p{
+    margin-top: 20px;
+    color: green;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: aliceblue;
+    align-items: center;
+}
+
+.botoes > a{
+    color: white;
+}
